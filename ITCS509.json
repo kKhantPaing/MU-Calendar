@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "source": "Mahidol University ICT Moodle / Course Syllabus Schedule",
+    "course_code": "ITCS509",
+    "course_name": "Research Methodology",
+    "timezone": "Asia/Bangkok (UTC+7)",
+    "exported_at": "2026-09-09T01:06:00+07:00"
+  },
+  "schedules": [
+    {
+      "week": 5,
+      "date": "2026-09-12",
+      "course": "691_ITCS509",
+      "course_full_name": "ITCS 509 Research Methodology",
+      "type": "Lecture",
+      "topic": "Data Collection & Sampling",
+      "delivery_mode": "Hybrid",
+      "start_time": "09:00",
+      "end_time": "12:00",
+      "summary": "ITCS 509 Research Methodology - [Lecture] Data Collection & Sampling"
+    },
+    {
+      "week": 6,
+      "date": "2026-09-19",
+      "course": "691_ITCS509",
+      "course_full_name": "ITCS 509 Research Methodology",
+      "type": "Lecture",
+      "topic": "Statistics for research I",
+      "delivery_mode": "Hybrid",
+      "start_time": "09:00",
+      "end_time": "12:00",
+      "summary": "ITCS 509 Research Methodology - [Lecture] Statistics for research I"
+    },
+    {
+      "week": 7,
+      "date": "2026-09-26",
+      "course": "691_ITCS509",
+      "course_full_name": "ITCS 509 Research Methodology",
+      "type": "Lecture",
+      "topic": "Statistics for research II",
+      "delivery_mode": "Hybrid",
+      "start_time": "09:00",
+      "end_time": "12:00",
+      "summary": "ITCS 509 Research Methodology - [Lecture] Statistics for research II"
+    },
+    {
+      "week": 8,
+      "date": "2026-10-03",
+      "course": "691_ITCS509",
+      "course_full_name": "ITCS 509 Research Methodology",
+      "type": "Cancelled",
+      "topic": "No class / Midterm (Graduation Ceremony)",
+      "delivery_mode": "No Class",
+      "start_time": "09:00",
+      "end_time": "12:00",
+      "summary": "[Cancel]-691_ITCS509 No class / Midterm Graduation Ceremony"
+    },
+    {
+      "week": 9,
+      "date": "2026-10-10",
+      "course": "691_ITCS509",
+      "course_full_name": "ITCS 509 Research Methodology",
+      "type": "Lecture",
+      "topic": "Evaluation of research",
+      "delivery_mode": "Hybrid (in-class activity)",
+      "start_time": "09:00",
+      "end_time": "12:00",
+      "summary": "ITCS 509 Research Methodology - [Lecture] Evaluation of research"
+    },
+    {
+      "week": 10,
+      "date": "2026-10-17",
+      "course": "691_ITCS509",
+      "course_full_name": "ITCS 509 Research Methodology",
+      "type": "Lecture",
+      "topic": "Writing, proposing and defending work",
+      "delivery_mode": "Hybrid",
+      "start_time": "09:00",
+      "end_time": "12:00",
+      "summary": "ITCS 509 Research Methodology - [Lecture] Writing, proposing and defending work"
+    },
+    {
+      "week": 11,
+      "date": "2026-10-24",
+      "course": "691_ITCS509",
+      "course_full_name": "ITCS 509 Research Methodology",
+      "type": "Lecture",
+      "topic": "Presentation and research ethics",
+      "delivery_mode": "Hybrid (in-class quiz)",
+      "start_time": "09:00",
+      "end_time": "12:00",
+      "summary": "ITCS 509 Research Methodology - [Lecture] Presentation and research ethics"
+    },
+    {
+      "week": 12,
+      "date": "2026-10-31",
+      "course": "691_ITCS509",
+      "course_full_name": "ITCS 509 Research Methodology",
+      "type": "Lecture",
+      "topic": "Final review",
+      "delivery_mode": "On-site",
+      "start_time": "09:00",
+      "end_time": "12:00",
+      "summary": "ITCS 509 Research Methodology - [Lecture] Final review"
+    },
+    {
+      "week": 13,
+      "date": "2026-11-07",
+      "course": "691_ITCS509",
+      "course_full_name": "ITCS 509 Research Methodology",
+      "type": "Presentation",
+      "topic": "Student presentation",
+      "delivery_mode": "On-site",
+      "start_time": "09:00",
+      "end_time": "12:00",
+      "summary": "ITCS 509 Research Methodology - [Presentation] Student presentation"
+    },
+    {
+      "week": 14,
+      "date": "2026-11-14",
+      "course": "691_ITCS509",
+      "course_full_name": "ITCS 509 Research Methodology",
+      "type": "Presentation",
+      "topic": "Student presentation",
+      "delivery_mode": "On-site",
+      "start_time": "09:00",
+      "end_time": "12:00",
+      "summary": "ITCS 509 Research Methodology - [Presentation] Student presentation"
+    },
+    {
+      "week": 15,
+      "date": "2026-11-21",
+      "course": "691_ITCS509",
+      "course_full_name": "ITCS 509 Research Methodology",
+      "type": "Exam",
+      "topic": "Final exam",
+      "delivery_mode": "On-site",
+      "start_time": "09:00",
+      "end_time": "12:00",
+      "summary": "[Reminder] ITCS 509 Research Methodology: Final exam"
+    }
+  ]
+}
