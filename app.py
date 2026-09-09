@@ -1,4 +1,4 @@
-import os, subprocess, sys, time, random
+import os
 import json
 from datetime import datetime, timezone, timedelta
 from dotenv import load_dotenv
@@ -250,11 +250,6 @@ if st.session_state.messages and st.session_state.messages[-1]["role"] == "user"
     user_prompt = st.session_state.messages[-1]["content"]
     
     with st.chat_message("assistant"):
-        # Pacing delay: 2 to 5 seconds per request
-        delay_sec = random.uniform(2.0, 5.0)
-        with st.spinner("Gemini is thinking..."):
-            time.sleep(delay_sec)
-
         if "chat" not in st.session_state:
             init_chat_session()
 

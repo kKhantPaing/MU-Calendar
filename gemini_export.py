@@ -18,6 +18,9 @@ def get_calendar_export(url=None) -> dict:
         except Exception:
             pass
 
+    if not url:
+        raise ValueError("Calendar export URL not provided. Please set 'calendar_export_url' in .streamlit/secrets.toml.")
+
     # 1. Fetch calendar data (.ics format)
     response = req.get(url)
     response.raise_for_status()
