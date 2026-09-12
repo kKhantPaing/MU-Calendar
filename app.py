@@ -11,8 +11,8 @@ from gemini_export import get_calendar_export
 load_dotenv()
 
 st.set_page_config(
-    page_title="Gemini Chat Assistant",
-    page_icon="✨",
+    page_title="My MU Calendar Assistant",
+    page_icon="💻",
     layout="centered",
     initial_sidebar_state="collapsed"
 )
@@ -189,7 +189,7 @@ if api_key:
 # ---------------------------------------------------------
 header_col1, header_col2 = st.columns([6, 1], vertical_alignment="bottom")
 with header_col1:
-    st.title("✨ Gemini Chat Assistant")
+    st.title("💻 My MU Calendar Assistant")
     n_courses = len(course_schedules)
     if n_courses > 0 and calendar_data:
         status_badge = f"📅 {n_courses} courses + calendar loaded"
@@ -230,12 +230,12 @@ if len(st.session_state.messages) == 0:
         if st.button("📅 Upcoming Deadlines", use_container_width=True):
             suggested_prompt = "What are my upcoming course deadlines this week, and what should I prioritize?"
     with col2:
-        if st.button("🔄 Class Schedule & Make-ups", use_container_width=True):
-            suggested_prompt = "What classes are cancelled, and what make-up classes do I need to attend?"
+        if st.button("🔄 Class Schedule", use_container_width=True):
+            suggested_prompt = "Can you summarize my class schedule for the next two weeks, including any make-up classes or cancellations?"
     with col3:
-        if st.button("📝 Study Schedule Plan", use_container_width=True):
-            suggested_prompt = "Create a day-by-day study schedule for this week leading up to my deadlines."
-            
+        if st.button("📝 Reminder", use_container_width=True):
+            suggested_prompt = "Can you remind me of any important tasks or assignments I need to complete soon?"
+
     if suggested_prompt:
         st.session_state.messages.append({"role": "user", "content": suggested_prompt})
         st.rerun()
