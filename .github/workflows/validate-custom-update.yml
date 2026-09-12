@@ -1,0 +1,32 @@
+name: Validate CustomUpdate JSON
+
+on:
+  push:
+    paths:
+      - 'CustomUpdate.json'
+      - '.github/workflows/**'
+      - 'scripts/**'
+  pull_request:
+    paths:
+      - 'CustomUpdate.json'
+      - '.github/workflows/**'
+      - 'scripts/**'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    name: Validate CustomUpdate Format
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Validate CustomUpdate.json
+        run: |
+          python scripts/validate_custom_update.py CustomUpdate.json
