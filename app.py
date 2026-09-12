@@ -264,6 +264,7 @@ if st.session_state.messages and st.session_state.messages[-1]["role"] == "user"
                     # Auto-recover if client was closed, rate limited, or model error -> try fallback model
                     if "closed" in err_str or "not_found" in err_str or "429" in err_str or "resource" in err_str:
                         fallback_model = ALTERNATIVE_MODEL if st.session_state.get("active_model") == PRIMARY_MODEL else PRIMARY_MODEL
+                        st.info(f"Switching to fallback model: {fallback_model}")
                         recovered_chat = init_chat_session(model_name=fallback_model)
                         for chunk in recovered_chat.send_message_stream(user_prompt):
                             if chunk.text:
