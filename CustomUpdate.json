@@ -1,11 +1,14 @@
 [
   {
+    "week": 5,
     "date": "2026-09-12",
-    "course": "ITCS514",
+    "course": "ITCS 509",
+    "course_full_name": "ITCS 509 Research Methodology",
     "type": "Lecture",
+    "topic": "COST ESTIMATION AND BUDGETING",
     "delivery_mode": "Hybrid",
     "start_time": "13:00",
-    "end_time": "16:00"
+    "end_time": "16:00",
+    "summary": "ITCS 509 Research Methodology - [Lecture] Data Collection & Sampling"
   }
 ]
-

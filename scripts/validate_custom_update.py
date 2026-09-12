@@ -87,10 +87,18 @@ def validate_custom_update_file(file_path):
             errors.append(f"Entry #{idx}: Expected object/dict, got {type(entry).__name__}")
             continue
 
-        # Check 'course'
+        # Check 'course' (e.g. 'ITCS 509', 'ITCS 503')
         course = entry.get("course")
         if not course or not isinstance(course, str) or not course.strip():
-            errors.append(f"Entry #{idx}: Missing or invalid 'course' field (e.g. 'ITCS503')")
+            errors.append(f"Entry #{idx}: Missing or invalid 'course' field (e.g. 'ITCS 509')")
+
+        # Check 'week'
+        week_val = entry.get("week")
+        if week_val is not None and not isinstance(week_val, int):
+            try:
+                int(week_val)
+            except (ValueError, TypeError):
+                errors.append(f"Entry #{idx}: 'week' must be an integer or null (e.g. 5)")
 
         # Check 'date'
         date_val = entry.get("date")
@@ -116,15 +124,11 @@ def validate_custom_update_file(file_path):
             if not is_valid:
                 errors.append(f"Entry #{idx}: {msg}")
 
-        # Check 'type'
-        type_val = entry.get("type")
-        if type_val is not None and not isinstance(type_val, str):
-            errors.append(f"Entry #{idx}: 'type' must be a string (e.g. 'Lecture', 'Reminder', 'Make-up', 'Cancelled')")
-
-        # Check 'delivery_mode'
-        delivery_val = entry.get("delivery_mode")
-        if delivery_val is not None and not isinstance(delivery_val, str):
-            errors.append(f"Entry #{idx}: 'delivery_mode' must be a string (e.g. 'Hybrid (Boonsit)', 'Online', 'On-site')")
+        # Check string fields: type, delivery_mode, topic, course_full_name, summary
+        for str_field in ["type", "delivery_mode", "topic", "course_full_name", "summary"]:
+            val = entry.get(str_field)
+            if val is not None and not isinstance(val, str):
+                errors.append(f"Entry #{idx}: '{str_field}' must be a string")
 
     if errors:
         print(f"\n[FAIL] Validation failed for {file_path} ({len(errors)} error(s) found):")
@@ -134,7 +138,9 @@ def validate_custom_update_file(file_path):
 
     print(f"\n[PASS] Validation passed: {file_path} is correctly formatted ({len(entries)} entry/entries verified).")
     for idx, entry in enumerate(entries, start=1):
-        print(f"  [{idx}] {entry.get('course')} | {entry.get('date')} | {entry.get('start_time', '')}-{entry.get('end_time', '')} | {entry.get('type', '')} | {entry.get('delivery_mode', '')}")
+        wk = f"Week {entry.get('week')}" if entry.get("week") is not None else "No week"
+        topic = f" | {entry.get('topic')}" if entry.get("topic") else ""
+        print(f"  [{idx}] {wk} | {entry.get('course')} | {entry.get('date')} | {entry.get('start_time', '')}-{entry.get('end_time', '')} | [{entry.get('type', '')}]{topic}")
     return True
 
 if __name__ == "__main__":

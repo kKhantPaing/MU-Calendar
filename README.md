@@ -44,12 +44,16 @@ To manually update or override a class session, edit `CustomUpdate.json`:
 ```json
 [
   {
-    "date": "2026-09-13",
-    "course": "ITCS503",
+    "week": 5,
+    "date": "2026-09-12",
+    "course": "ITCS 509",
+    "course_full_name": "ITCS 509 Research Methodology",
     "type": "Lecture",
-    "delivery_mode": "Hybrid (Boonsit)",
+    "topic": "Data Collection & Sampling",
+    "delivery_mode": "Hybrid",
     "start_time": "09:00",
-    "end_time": "12:00"
+    "end_time": "12:00",
+    "summary": "ITCS 509 Research Methodology - [Lecture] Data Collection & Sampling"
   }
 ]
 ```
