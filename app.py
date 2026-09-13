@@ -285,6 +285,7 @@ Current reference date and time: {current_time_str}.
 2. When answering valid schedule queries, use exact course codes (e.g. ITCS 509, ITCS 525, ITCS 503, ITCS 544, ITCS 514).
 3. Distinguish active make-up classes from cancelled sessions.
 4. Provide clear, actionable deadlines with exact due dates.
+5. Always show day, date, and time in ICT (UTC+7) timezone when referencing schedule events or deadlines.
 """
 
 if calendar_loaded:
@@ -322,7 +323,7 @@ When answering questions about classes, homework, or schedule:
 - Use the course schedule topic data to provide detailed, week-by-week lecture information.
 - Distinguish active make-up classes from cancelled sessions.
 - Provide clear, actionable deadlines with exact due dates.
-"""
+- Always show day, date, and time in ICT (UTC+7) timezone when referencing schedule events or deadlines."""
 
 
 # ---------------------------------------------------------
