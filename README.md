@@ -4,7 +4,7 @@ A Streamlit-based AI assistant powered by Google Gemini, tailored for Mahidol Un
 
 ## Features
 
-- **Course Schedules & Syllabus Integration**: Loads week-by-week lecture topics, delivery modes, and exam dates for courses (`ITCS503`, `ITCS509`, `ITCS525`, `ITCS544`).
+- **Course Schedules & Syllabus Integration**: Loads week-by-week lecture topics, delivery modes, and exam dates for courses (`ITCS503`, `ITCS509`, `ITCS514`, `ITCS525`, `ITCS544`).
 - **Moodle Calendar Sync**: Fetches real-time deadlines, make-up classes, and cancellations directly from Moodle `.ics` calendar feeds.
 - **Highest Priority Manual Overrides (`CustomUpdate.json`)**: Allows students to manually override class topics, delivery modes, and schedules with highest priority. Overrides take precedence over conflicting syllabus or Moodle calendar entries.
 - **Instant Hot-Reload**: Automatically invalidates cache and refreshes context when `CustomUpdate.json` is updated.

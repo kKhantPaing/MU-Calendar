@@ -1,0 +1,158 @@
+{
+  "metadata": {
+    "source": "Mahidol University ICT Moodle / Course Syllabus Schedule",
+    "course_code": "ITCS514",
+    "course_name": "Software Project Management",
+    "timezone": "Asia/Bangkok (UTC+7)",
+    "exported_at": "2026-09-14T18:00:00+07:00"
+  },
+  "schedules": [
+    {
+      "week": 1,
+      "date": "2026-08-10",
+      "course": "691_ITCS514",
+      "course_full_name": "ITCS 514 Software Project Management",
+      "type": "Lecture",
+      "topic": "Introduction to Software Project Management",
+      "start_time": "18:00",
+      "end_time": "21:00",
+      "summary": "ITCS 514 Software Project Management - [Lecture] Introduction to Software Project Management"
+    },
+    {
+      "week": 2,
+      "date": "2026-08-17",
+      "course": "691_ITCS514",
+      "course_full_name": "ITCS 514 Software Project Management",
+      "type": "Lecture",
+      "topic": "Project Lifecycle & Methodology",
+      "start_time": "18:00",
+      "end_time": "21:00",
+      "summary": "ITCS 514 Software Project Management - [Lecture] Project Lifecycle & Methodology"
+    },
+    {
+      "week": 3,
+      "date": "2026-08-24",
+      "course": "691_ITCS514",
+      "course_full_name": "ITCS 514 Software Project Management",
+      "type": "Lecture",
+      "topic": "Project Initiation and Scope Definition",
+      "start_time": "18:00",
+      "end_time": "21:00",
+      "summary": "ITCS 514 Software Project Management - [Lecture] Project Initiation and Scope Definition"
+    },
+    {
+      "week": 4,
+      "date": "2026-08-31",
+      "course": "691_ITCS514",
+      "course_full_name": "ITCS 514 Software Project Management",
+      "type": "Lecture",
+      "topic": "Scheduling & Estimation",
+      "start_time": "18:00",
+      "end_time": "21:00",
+      "summary": "ITCS 514 Software Project Management - [Lecture] Scheduling & Estimation"
+    },
+    {
+      "week": 5,
+      "date": "2026-09-07",
+      "course": "691_ITCS514",
+      "course_full_name": "ITCS 514 Software Project Management",
+      "type": "Lecture",
+      "topic": "Cost Estimation & Budgeting",
+      "start_time": "18:00",
+      "end_time": "21:00",
+      "summary": "ITCS 514 Software Project Management - [Lecture] Cost Estimation & Budgeting"
+    },
+    {
+      "week": 6,
+      "date": "2026-09-14",
+      "course": "691_ITCS514",
+      "course_full_name": "ITCS 514 Software Project Management",
+      "type": "Lecture",
+      "topic": "Risk Management",
+      "start_time": "18:00",
+      "end_time": "21:00",
+      "summary": "ITCS 514 Software Project Management - [Lecture] Risk Management"
+    },
+    {
+      "week": 7,
+      "date": "2026-09-21",
+      "course": "691_ITCS514",
+      "course_full_name": "ITCS 514 Software Project Management",
+      "type": "Lecture",
+      "topic": "Team and Stakeholder Management",
+      "start_time": "18:00",
+      "end_time": "21:00",
+      "summary": "ITCS 514 Software Project Management - [Lecture] Team and Stakeholder Management"
+    },
+    {
+      "week": 8,
+      "date": "2026-09-28",
+      "course": "691_ITCS514",
+      "course_full_name": "ITCS 514 Software Project Management",
+      "type": "Presentation",
+      "topic": "Project Presentation I",
+      "start_time": "18:00",
+      "end_time": "19:30",
+      "summary": "ITCS 514 Software Project Management - [Presentation] Project Presentation I"
+    },
+    {
+      "week": 8,
+      "date": "2026-09-28",
+      "course": "691_ITCS514",
+      "course_full_name": "ITCS 514 Software Project Management",
+      "type": "Exam",
+      "topic": "Midterm Exam",
+      "delivery_mode": "On-site",
+      "start_time": "19:30",
+      "end_time": "21:00",
+      "summary": "[Reminder] ITCS 514 Software Project Management: Midterm Exam"
+    }
+  ],
+  "deadlines": [
+    {
+      "course": "691_ITCS514",
+      "course_full_name": "ITCS 514 Software Project Management",
+      "title": "Class project registration",
+      "due_datetime": "2026-08-17T23:59:00",
+      "reminder_start": "2026-08-17T23:30:00",
+      "reminder_end": "2026-08-18T00:00:00",
+      "summary": "[Reminder] ITCS 514 Software Project Management: Class project registration"
+    },
+    {
+      "course": "691_ITCS514",
+      "course_full_name": "ITCS 514 Software Project Management",
+      "title": "RFP / Project Charter",
+      "due_datetime": "2026-08-31T23:59:00",
+      "reminder_start": "2026-08-31T23:30:00",
+      "reminder_end": "2026-09-01T00:00:00",
+      "summary": "[Reminder] ITCS 514 Software Project Management: RFP / Project Charter"
+    },
+    {
+      "course": "691_ITCS514",
+      "course_full_name": "ITCS 514 Software Project Management",
+      "title": "WBS & Gantt Chart",
+      "due_datetime": "2026-09-14T23:59:00",
+      "reminder_start": "2026-09-14T23:30:00",
+      "reminder_end": "2026-09-15T00:00:00",
+      "summary": "[Reminder] ITCS 514 Software Project Management: WBS & Gantt Chart"
+    },
+    {
+      "course": "691_ITCS514",
+      "course_full_name": "ITCS 514 Software Project Management",
+      "title": "Project Cost Estimation & Risk Register",
+      "due_datetime": "2026-09-21T23:59:00",
+      "reminder_start": "2026-09-21T23:30:00",
+      "reminder_end": "2026-09-22T00:00:00",
+      "summary": "[Reminder] ITCS 514 Software Project Management: Project Cost Estimation & Risk Register"
+    },
+    {
+      "course": "691_ITCS514",
+      "course_full_name": "ITCS 514 Software Project Management",
+      "title": "Project Plan",
+      "due_datetime": "2026-09-28T23:59:00",
+      "reminder_start": "2026-09-28T23:30:00",
+      "reminder_end": "2026-09-29T00:00:00",
+      "summary": "[Reminder] ITCS 514 Software Project Management: Project Plan"
+    }
+  ]
+}

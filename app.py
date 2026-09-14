@@ -44,7 +44,13 @@ temperature = 0.0
 current_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Course JSON files to load alongside the calendar export
-COURSE_JSON_FILES = ["ITCS544.json", "ITCS503.json", "ITCS509.json", "ITCS525.json"]
+COURSE_JSON_FILES = [
+    "ITCS544.json",
+    "ITCS503.json",
+    "ITCS509.json",
+    "ITCS525.json",
+    "ITCS514.json",
+]
 CUSTOM_UPDATE_FILE = "CustomUpdate.json"
 custom_update_path = os.path.join(current_dir, CUSTOM_UPDATE_FILE)
 custom_mtime = os.path.getmtime(custom_update_path) if os.path.exists(custom_update_path) else 0.0
@@ -152,6 +158,22 @@ def apply_custom_updates(
                 candidates.append(s)
             elif not target_date and target_week is not None and s.get("week") == target_week:
                 candidates.append(s)
+
+        # Fallback: if no date match was found, check if week matches an existing session
+        # (e.g. rescheduling an existing syllabus session to a new date)
+        if not candidates and target_week is not None:
+            week_candidates = [s for s in schedules if s.get("week") == target_week]
+            if update.get("topic"):
+                u_top = update["topic"].lower()
+                candidates = [
+                    s for s in week_candidates
+                    if u_top in str(s.get("topic", "")).lower() or str(s.get("topic", "")).lower() in u_top
+                ]
+            if not candidates and update.get("type"):
+                u_type = update["type"].lower()
+                candidates = [s for s in week_candidates if u_type in str(s.get("type", "")).lower()]
+            if not candidates and len(week_candidates) == 1:
+                candidates = week_candidates
 
         if candidates:
             matched = None
@@ -305,9 +327,15 @@ The following update(s) were manually entered in CustomUpdate.json and strictly 
         for code, data in course_schedules.items():
             meta = data.get("metadata", {})
             schedules = data.get("schedules", [])
+            deadlines = data.get("deadlines", [])
             system_instruction += f"""
 ### {code} – {meta.get("course_name", "")}
 {json.dumps(schedules, indent=2)}
+"""
+            if deadlines:
+                system_instruction += f"""
+#### {code} Deadlines & Reminders
+{json.dumps(deadlines, indent=2)}
 """
 
     # Inject calendar deadlines, cancellations & make-up events
