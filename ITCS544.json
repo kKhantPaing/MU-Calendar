@@ -36,12 +36,12 @@
       "date": "2026-09-29",
       "course": "691_ITCS544",
       "course_full_name": "ITCS 544 Data Mining and Data Warehousing",
-      "type": "Lecture",
-      "topic": "Classification and Prediction II",
-      "delivery_mode": "On-site / Online",
+      "type": "Exam",
+      "topic": "Midterm Exam",
+      "delivery_mode": "On-site",
       "start_time": "18:00",
       "end_time": "21:00",
-      "summary": "ITCS 544 Data Mining and Data Warehousing - [Lecture] Classification and Prediction II"
+      "summary": "[Reminder] ITCS 544 Data Mining and Data Warehousing: Midterm Exam"
     },
     {
       "week": null,
