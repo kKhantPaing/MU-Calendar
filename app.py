@@ -466,16 +466,13 @@ for message in st.session_state.messages:
 # Quick Suggestions if chat is empty
 if len(st.session_state.messages) == 0:
     st.markdown("##### 💡 Suggested Questions")
-    col1, col2, col3 = st.columns(3)
+    col1, col2 = st.columns(2)
 
     suggested_prompt = None
     with col1:
-        if st.button("📅 Upcoming Deadlines", use_container_width=True):
-            suggested_prompt = "What are my upcoming course deadlines this week, and what should I prioritize?"
-    with col2:
         if st.button("🔄 Class Schedule", use_container_width=True):
-            suggested_prompt = "Can you summarize my class schedule for the next two weeks, including any make-up classes or cancellations?"
-    with col3:
+            suggested_prompt = "Can you summarize my class schedule for the coming week, including any make-up classes or cancellations?"
+    with col2:
         if st.button("📝 Reminder", use_container_width=True):
             suggested_prompt = "Can you remind me of any important tasks or assignments I need to complete soon?"
 
