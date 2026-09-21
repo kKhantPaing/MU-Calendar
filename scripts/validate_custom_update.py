@@ -138,9 +138,12 @@ def validate_custom_update_file(file_path):
 
     print(f"\n[PASS] Validation passed: {file_path} is correctly formatted ({len(entries)} entry/entries verified).")
     for idx, entry in enumerate(entries, start=1):
-        wk = f"Week {entry.get('week')}" if entry.get("week") is not None else "No week"
+        wk_part = f"Week {entry.get('week')} | " if entry.get("week") is not None else ""
+        start_t = entry.get("start_time")
+        end_t = entry.get("end_time")
+        time_part = f" | {start_t}-{end_t}" if start_t and end_t else (f" | {start_t}" if start_t else "")
         topic = f" | {entry.get('topic')}" if entry.get("topic") else ""
-        print(f"  [{idx}] {wk} | {entry.get('course')} | {entry.get('date')} | {entry.get('start_time', '')}-{entry.get('end_time', '')} | [{entry.get('type', '')}]{topic}")
+        print(f"  [{idx}] {wk_part}{entry.get('course')} | {entry.get('date')}{time_part} | [{entry.get('type', '')}]{topic}")
     return True
 
 if __name__ == "__main__":

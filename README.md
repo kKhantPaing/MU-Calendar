@@ -54,6 +54,20 @@ To manually update or override a class session, edit `CustomUpdate.json`:
 ]
 ```
 
+### Cancelling a Class Session
+
+If a class session is cancelled, set `"type": "Cancelled"` (or `"Cancel"`). For cancellations, only `"course"`, `"date"`, and `"type"` are required. The session will be automatically removed from showing in the active class schedule:
+
+```json
+[
+  {
+    "course": "ITCS 544",
+    "date": "2026-09-29",
+    "type": "Cancelled"
+  }
+]
+```
+
 ### Validating JSON Locally
 
 You can run the validator script at any time to verify `CustomUpdate.json`:
