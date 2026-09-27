@@ -24,24 +24,24 @@
       "date": "2026-09-22",
       "course": "691_ITCS544",
       "course_full_name": "ITCS 544 Data Mining and Data Warehousing",
-      "type": "Exam",
-      "topic": "Midterm Exam",
-      "delivery_mode": "On-site",
+      "type": "Lecture",
+      "topic": "Classification and Prediction II",
+      "delivery_mode": "On-site / Online",
       "start_time": "18:00",
       "end_time": "21:00",
-      "summary": "[Reminder] ITCS 544 Data Mining and Data Warehousing: Midterm Exam"
+      "summary": "ITCS 544 Data Mining and Data Warehousing - [Lecture] Classification and Prediction II"
     },
     {
-      "week": 9,
+      "week": null,
       "date": "2026-09-29",
       "course": "691_ITCS544",
       "course_full_name": "ITCS 544 Data Mining and Data Warehousing",
-      "type": "Exam",
-      "topic": "Midterm Exam",
-      "delivery_mode": "On-site",
+      "type": "Cancelled",
+      "topic": "Flooding situation – Midterm Exam moved to Oct 20 (no class)",
+      "delivery_mode": "No Class",
       "start_time": "18:00",
       "end_time": "21:00",
-      "summary": "[Reminder] ITCS 544 Data Mining and Data Warehousing: Midterm Exam"
+      "summary": "[Cancel]-691_ITCS544 Flooding situation – Midterm Exam moved to Oct 20"
     },
     {
       "week": null,
@@ -61,15 +61,27 @@
       "course": "691_ITCS544",
       "course_full_name": "ITCS 544 Data Mining and Data Warehousing",
       "type": "Cancelled",
-      "topic": "King Rama IX’s Day – no class",
+      "topic": "King Rama IX’s Day / Project Progress Report Due – no class",
       "delivery_mode": "No Class",
       "start_time": "18:00",
       "end_time": "21:00",
-      "summary": "[Cancel]-691_ITCS544 King Rama IX’s Day – no class"
+      "summary": "[Cancel]-691_ITCS544 King Rama IX’s Day – no class (Project Progress Report Due)"
+    },
+    {
+      "week": 9,
+      "date": "2026-10-20",
+      "course": "691_ITCS544",
+      "course_full_name": "ITCS 544 Data Mining and Data Warehousing",
+      "type": "Exam",
+      "topic": "Midterm Exam",
+      "delivery_mode": "On-site",
+      "start_time": "18:00",
+      "end_time": "21:00",
+      "summary": "[Reminder] ITCS 544 Data Mining and Data Warehousing: Midterm Exam"
     },
     {
       "week": 10,
-      "date": "2026-10-20",
+      "date": "2026-10-27",
       "course": "691_ITCS544",
       "course_full_name": "ITCS 544 Data Mining and Data Warehousing",
       "type": "Lecture",
@@ -81,7 +93,7 @@
     },
     {
       "week": 11,
-      "date": "2026-10-27",
+      "date": "2026-11-03",
       "course": "691_ITCS544",
       "course_full_name": "ITCS 544 Data Mining and Data Warehousing",
       "type": "Lecture",
@@ -93,7 +105,7 @@
     },
     {
       "week": 12,
-      "date": "2026-11-03",
+      "date": "2026-11-10",
       "course": "691_ITCS544",
       "course_full_name": "ITCS 544 Data Mining and Data Warehousing",
       "type": "Lecture",
@@ -105,7 +117,7 @@
     },
     {
       "week": 13,
-      "date": "2026-11-10",
+      "date": "2026-11-17",
       "course": "691_ITCS544",
       "course_full_name": "ITCS 544 Data Mining and Data Warehousing",
       "type": "Lecture",
@@ -117,7 +129,7 @@
     },
     {
       "week": 14,
-      "date": "2026-11-17",
+      "date": "2026-11-24",
       "course": "691_ITCS544",
       "course_full_name": "ITCS 544 Data Mining and Data Warehousing",
       "type": "Presentation",
@@ -126,18 +138,6 @@
       "start_time": "18:00",
       "end_time": "21:00",
       "summary": "ITCS 544 Data Mining and Data Warehousing - [Presentation] Outlier Detection / DM & DWH Applications"
-    },
-    {
-      "week": null,
-      "date": "2026-11-24",
-      "course": "691_ITCS544",
-      "course_full_name": "ITCS 544 Data Mining and Data Warehousing",
-      "type": "Cancelled",
-      "topic": "Reading week – no class",
-      "delivery_mode": "No Class",
-      "start_time": "18:00",
-      "end_time": "21:00",
-      "summary": "[Cancel]-691_ITCS544 Reading week – no class"
     },
     {
       "week": 15,

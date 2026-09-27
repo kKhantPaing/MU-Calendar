@@ -12,8 +12,13 @@
     "summary": "Cost Estimation and Budgeting File"
   },
   {
-    "week": 9,
+    "course": "ITCS 544",
     "date": "2026-09-29",
+    "type": "Cancelled"
+  },
+  {
+    "week": 9,
+    "date": "2026-10-20",
     "course": "ITCS 544",
     "course_full_name": "ITCS 544 Data Mining and Data Warehousing",
     "type": "Exam",
