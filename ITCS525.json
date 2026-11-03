@@ -97,11 +97,11 @@
       "course": "691_ITCS525",
       "course_full_name": "ITCS 525 Software and Application Development",
       "type": "Lab",
-      "topic": "Apply OOP concepts to refactor a project",
+      "topic": "Lab 5: Apply OOP concepts to refactor a project",
       "status": "In progress",
       "start_time": "13:00",
       "end_time": "16:00",
-      "summary": "ITCS 525 Software and Application Development - [Lab] Apply OOP concepts to refactor a project"
+      "summary": "ITCS 525 Software and Application Development - [Lab 5: Apply OOP concepts to refactor a project]"
     },
     {
       "week": 6,
@@ -133,11 +133,11 @@
       "course": "691_ITCS525",
       "course_full_name": "ITCS 525 Software and Application Development",
       "type": "Lab",
-      "topic": "Getting started with React",
+      "topic": "Lab 6: Getting started with React",
       "status": "In progress",
       "start_time": "13:00",
       "end_time": "16:00",
-      "summary": "ITCS 525 Software and Application Development - [Lab] Getting started with React"
+      "summary": "ITCS 525 Software and Application Development - [Lab 6: Getting started with React]"
     },
     {
       "week": 7,
@@ -157,11 +157,11 @@
       "course": "691_ITCS525",
       "course_full_name": "ITCS 525 Software and Application Development",
       "type": "Lab",
-      "topic": "Using TailwindCSS in your project",
+      "topic": "Lab 7: Using TailwindCSS in your project",
       "status": "In progress",
       "start_time": "13:00",
       "end_time": "16:00",
-      "summary": "ITCS 525 Software and Application Development - [Lab] Using TailwindCSS in your project"
+      "summary": "ITCS 525 Software and Application Development - [Lab 7: Using TailwindCSS in your project]"
     },
     {
       "week": 8,
@@ -193,11 +193,11 @@
       "course": "691_ITCS525",
       "course_full_name": "ITCS 525 Software and Application Development",
       "type": "Lab",
-      "topic": "useEffect and useContext",
+      "topic": "Lab 8: useEffect and useContext",
       "status": "In progress",
       "start_time": "13:00",
       "end_time": "16:00",
-      "summary": "ITCS 525 Software and Application Development - [Lab] useEffect and useContext"
+      "summary": "ITCS 525 Software and Application Development - [Lab 8: useEffect and useContext]"
     },
     {
       "week": 9,
@@ -241,11 +241,11 @@
       "course": "691_ITCS525",
       "course_full_name": "ITCS 525 Software and Application Development",
       "type": "Lab",
-      "topic": "Composing Docker containers for Web apps",
+      "topic": "Lab 10: Composing Docker containers for Web apps",
       "status": "In progress",
       "start_time": "13:00",
       "end_time": "16:00",
-      "summary": "ITCS 525 Software and Application Development - [Lab] Composing Docker containers for Web apps"
+      "summary": "ITCS 525 Software and Application Development - [Lab 10: Composing Docker containers for Web apps]"
     },
     {
       "week": 11,
@@ -265,11 +265,11 @@
       "course": "691_ITCS525",
       "course_full_name": "ITCS 525 Software and Application Development",
       "type": "Lab",
-      "topic": "Design your database",
+      "topic": "Lab 11: Design your database",
       "status": "In progress",
       "start_time": "13:00",
       "end_time": "16:00",
-      "summary": "ITCS 525 Software and Application Development - [Lab] Design your database"
+      "summary": "ITCS 525 Software and Application Development - [Lab 11: Design your database]"
     },
     {
       "week": 12,
@@ -301,11 +301,11 @@
       "course": "691_ITCS525",
       "course_full_name": "ITCS 525 Software and Application Development",
       "type": "Lab",
-      "topic": "Implement ORM in Backend APIs",
+      "topic": "Lab 12: Implement ORM in Backend APIs",
       "status": "In progress",
       "start_time": "13:00",
       "end_time": "16:00",
-      "summary": "ITCS 525 Software and Application Development - [Lab] Implement ORM in Backend APIs"
+      "summary": "ITCS 525 Software and Application Development - [Lab 12: Implement ORM in Backend APIs]"
     },
     {
       "week": 13,
@@ -349,11 +349,11 @@
       "course": "691_ITCS525",
       "course_full_name": "ITCS 525 Software and Application Development",
       "type": "Lab",
-      "topic": "Software Deployment on Render",
+      "topic": "Lab 14: Software Deployment on Render",
       "status": "In progress",
       "start_time": "13:00",
       "end_time": "16:00",
-      "summary": "ITCS 525 Software and Application Development - [Lab] Software Deployment on Render"
+      "summary": "ITCS 525 Software and Application Development - [Lab 14: Software Deployment on Render]"
     },
     {
       "week": 15,
@@ -366,6 +366,17 @@
       "start_time": "13:00",
       "end_time": "16:00",
       "summary": "ITCS 525 Software and Application Development - [Project] Project Presentation"
+    }
+  ],
+  "deadlines": [
+    {
+      "course": "691_ITCS525",
+      "course_full_name": "ITCS 525 Software and Application Development",
+      "title": "Lab 10: Composing Docker containers for Web apps",
+      "due_datetime": "2026-11-06T23:55:00",
+      "reminder_start": "2026-11-06T23:00:00",
+      "reminder_end": "2026-11-06T23:55:00",
+      "summary": "[Deadline] ITCS 525 Software and Application Development: Lab 10 Due"
     }
   ]
 }
