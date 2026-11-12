@@ -313,5 +313,18 @@
     "start_time": "18:00",
     "end_time": "21:00",
     "summary": "Final Exam: ITCS 544 Data Mining and Data Warehousing (Final Report Due)"
+  },
+  {
+    "date": "2026-12-05",
+    "course": "ITCS 509",
+    "course_full_name": "ITCS 509 Presentation and Research Methodology",
+    "type": "Exam",
+    "topic": "Final Exam & Final Report Due",
+    "delivery_mode": "On-site",
+    "location": "Room IT334",
+    "instructor": "Dr. Boonsit Yimwadsana",
+    "start_time": "09:00",
+    "end_time": "12:00",
+    "summary": "Final Exam Part 2: ITCS 509 Presentation and Research Methodology (Final Report Due)"
   }
 ]
